@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Freecodecamp Survey Form</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="Left">
+				<header>
+					<div>
+						<h1 id="title">Have you ever thought about being part of our team?</h1>
+					</div>
+					<div>
+						<p id="description">Fill in the information below and good luck!</p>
+					</div>
+				</header>
+		</div>
+
+		<div class="Right">
+			<form id="survey-form">
+				<div class="inputname">
+					<label for="name" id="name-label">Name</label>
+					<input type="text" id="name" placeholder="What is your full name?" required>
+				</div>
+
+				<div class="inputemail">
+					<label for="email" id="email-label">Email</label>
+					<input type="email" id="email" placeholder="What is your email?" required>
+				</div>
+
+				<div class="inputage">
+					<label for="number" id="number-label">Age</label>
+					<input type="number" id="number" placeholder="How old are you?" min="18" max="70" required>
+				</div>
+
+				<div class="inputjob">
+					<label for="dropdown" id="dropdown-label">Which position are you applying for?</label>
+					<select id="dropdown">
+						<option value="option1">Select one </option>
+						<option value="option2">UX Designer </option>
+						<option value="option2">Tech Lead</option>
+						<option value="option2">UX Lead</option>
+						<option value="option2">Front-end Developer</option>
+					</select>
+				</div>
+
+				<div class="radio">
+					<fieldset>
+						<legend>Do you already work at Cray Studios?</legend>
+						<label class="radio1">
+							<input type="radio" name="radio-group" value="radio1" checked> Yes, I work at the company.
+						</label>
+						<label class="radio2">
+							<input type="radio" name="radio-group" value="radio2"> No, I do not work.
+						</label>
+					</fieldset>
+				</div>
+
+				<div class="checkbox">
+					<fieldset>
+						<legend>Where have you seen our job opening?</legend>
+						<label class="check1">
+							<input type="checkbox" value="checkbox1"> Linkedin
+						</label>
+						<label class="check2">
+							<input type="checkbox" value="checkbox2"> Indeed
+						</label>
+						<label class="check3">
+							<input type="checkbox" value="checkbox3"> Google
+						</label>
+						<label class="check4">
+							<input type="checkbox" value="checkbox4"> Catho
+						</label>
+						<label class="check5">
+							<input type="checkbox" value="checkbox5"> Jobs
+						</label>
+						<label class="check6">
+							<input type="checkbox" value="checkbox6"> Cray Studios Site
+						</label>
+					</fieldset>
+				</div>
+
+				<div class="textarea">
+					<label for="comments" id="comments-label">Is there anything relevant we need to know?</label>
+					<textarea id="comments"
+						placeholder="What were your experiences, what are you good at..."></textarea>
+				</div>
+
+				<div class="submit">
+					<button type="submit" id="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body,
+p,
+div,
+label,
+legend,
+textarea,
+input,
+button,
+fieldset,
+option {
+    font-family: roboto;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Left {
+    display: flex;
+}
+
+.Right {
+    display: flex;
+}
+
+h1#title {
+    font-size: 56px;
+    width: 458px;
+    text-align: center;
+    color: #3369CF;
+    font-family: pacifico;
+    font-weight: 500;
+}
+
+p#description {
+    font-size: 24px;
+    width: 458px;
+    text-align: center;
+    color: rgb(123, 123, 123);
+}
+
+form#survey-form {
+    width: 640px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    border-radius: 16px;
+    margin: 64px 0;
+}
+
+.inputname,
+.inputemail,
+.inputage,
+.inputjob,
+.radio,
+.checkbox,
+.textarea {
+    margin: 0 0 24px 0;
+    padding: 0;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#comments-label,
+#dropdown-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#name,
+#email,
+#number {
+    width: 606px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: rgb(196, 196, 196);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 16px;
+}
+
+#dropdown {
+    width: 100%;
+    height: 42px;
+    border-radius: 8px;
+    border-color: rgb(196, 196, 196);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(105, 105, 105);
+    padding: 0 12px;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.radio1,
+.radio2,
+.check1,
+.check2,
+.check3,
+.check4,
+.check5,
+.check6 {
+    display: block;
+    padding: 8px 8px;
+    color: rgb(123, 123, 123);
+}
+
+#comments {
+    width: 606px;
+    height: 80px;
+    border-radius: 8px;
+    border-color: rgb(196, 196, 196);
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 16px;
+}
+
+#comments::placeholder {
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+button#submit {
+    width: 100%;
+    height: 42px;
+    background-color: #3369CF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
